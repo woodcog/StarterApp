@@ -2,4 +2,3 @@ language: objective-c
 osx_image: xcode9.2
 xcode_workspace: StarterApp.xcworkspace
 xcode_scheme: StarterApp
-xcode_sdk: iphonesimulator11.2
