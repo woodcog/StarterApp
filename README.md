@@ -1,2 +1,2 @@
 # StarterApp
-Swift starter app with cocoapods and .travis.yml file
+Swift starter app with cocoapods, carthage and .travis.yml file
