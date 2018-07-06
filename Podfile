@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 inhibit_all_warnings!
-project 'Lighthouse'
+project 'StarterApp'
 use_frameworks!
 
 target 'Lighthouse' do
@@ -19,7 +19,7 @@ post_install do |installer|
             config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
         end
     end
-    bundle_id = 'com.ibm.cio.be.ppm'
+    bundle_id = 'com.ibm.hyc.cte.etp.StarterApp'
     
     directory = installer.config.project_pods_root + 'Target Support Files/'
     Dir.foreach(directory) do |path|
