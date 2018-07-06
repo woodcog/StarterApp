@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode9.2
-xcode_workspace: Lighthouse.xcworkspace
-xcode_scheme: Lighthouse
+xcode_workspace: StarterApp.xcworkspace
+xcode_scheme: StarterApp
 xcode_sdk: iphonesimulator11.2
