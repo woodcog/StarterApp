@@ -4,7 +4,7 @@ inhibit_all_warnings!
 project 'StarterApp'
 use_frameworks!
 
-target 'Lighthouse' do
+target 'StarterApp' do
  pod 'Reachability'
  pod 'Alamofire', '~> 4.7'
  pod 'AlamofireObjectMapper', '~> 5.0'
